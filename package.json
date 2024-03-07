@@ -1,0 +1,28 @@
+{
+  "name": "@ffgflash/simply-console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Drake Taylor",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "eventemitter3": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
